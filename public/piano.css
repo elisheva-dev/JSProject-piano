@@ -30,6 +30,7 @@ body{
 height: calc(var(--width) * 2);
 width: var(--width);
 }
+
 .white{
   width: 120px;
   height: 360px;
@@ -38,7 +39,10 @@ width: var(--width);
   position: relative;
   margin-right: 1.01px;
 }
+.white:hover{
+  background-color:#eaf0f4;
 
+}
 .black{
   width: 60px;
   height: 210px;
@@ -49,6 +53,9 @@ width: var(--width);
   z-index: 2;
   position: relative
 
+}
+.black:hover{
+  background-color: rgb(43, 43, 43);
 }
 .assists{
   position: absolute;
@@ -75,6 +82,10 @@ font-weight: bolder;
   border: 2px solid rgb(255, 255, 255);
   border-radius: 25px;
   margin-top: 2.5%;
+}
+.button:hover{
+  background-color:#b1d5ef;
+
 }
 .sheet_div{
   width: 50%;
