@@ -5,6 +5,13 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "source": "/sounds/**",
+    "headers": [
+      {
+        "key": "Cache-Control",
+        "value": "max-age=86400"
+      }
     ]
   }
 }
